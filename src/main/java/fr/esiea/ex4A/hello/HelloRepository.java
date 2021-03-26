@@ -23,7 +23,7 @@ class HelloRepository {
     private final Random random = new Random();
 
     HelloData randomHello() {
-        return new HelloData(names.get(random.nextInt(names.size())));
+            return new HelloData(names.get(random.nextInt(names.size())));
     }
 
     HelloData getHelloFor(String name) {
